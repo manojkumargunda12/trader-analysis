@@ -1,4 +1,5 @@
-# trader-analysis
+# Trader Behavior Analysis under Market Sentiment (Fear vs Greed)
+
 Data analysis of trader performance vs market sentiment (Fear/Greed) using Python, uncovering behavioral patterns and actionable trading insights.
 # Trader Performance vs Market Sentiment Analysis
 

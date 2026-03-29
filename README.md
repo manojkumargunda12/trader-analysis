@@ -47,4 +47,9 @@ Scale positions only during consistent profitability
 
 1. Python (Pandas, NumPy)
 2. Matplotlib / Seaborn
-3. Jupyter Notebook 
+3. Jupyter Notebook
+
+## Conclusion
+
+Trader performance and behavior are strongly influenced by market conditions.
+Understanding sentiment-driven behavior can significantly improve risk management and trading outcomes.

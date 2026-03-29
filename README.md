@@ -17,42 +17,32 @@ Analyze how market sentiment (Fear/Greed) influences trader behavior and perform
 4. Segmentation analysis
 5. Visualization and insights
 
-##  Key Insights
-1. Traders tend to have lower profitability during Fear periods due to risk aversion.
-2. During Greed periods, traders increase leverage and trade frequency, leading to higher volatility.
-3. High-leverage traders exhibit more extreme profit/loss swings compared to low-leverage traders.
-      
-##  Strategy Recommendations
-1. Reduce leverage during Fear periods to minimize losses.
-2. Limit overtrading during Greed phases to avoid emotional decision-making.
+   
+## Key Insights
+1. Performance Difference: 
 
-##  How to Run
-```bash
-pip install -r requirements.txt
-jupyter notebook
+Traders incur an average loss of -23.7 during Fear conditions and achieve a significantly higher profit of +152.5 during Greed conditions.
+This shows profitability is concentrated in favorable market conditions.
+
+2. Behavioral Pattern: 
+
+During Fear conditions, traders execute more BUY trades (74K), indicating “buy the dip” behavior.
+During Greed conditions, traders execute more SELL trades (58K), indicating profit-taking.
+
+3. Risk Behavior: 
+
+Traders increase position sizes during profitable conditions, showing higher confidence and risk-taking.
+
+## Strategy Recommendations
+Avoid aggressive buying during Fear phases to prevent compounding losses
+Apply structured profit-taking during Greed phases
+Scale positions only during consistent profitability
 
 ## Results / Visualizations
 1. PnL distribution across Fear vs Greed periods  
 2. Leverage usage by sentiment  
-3. Trade frequency comparison  
-
-(Charts available in the notebook and /charts folder)
-
-## Key Insights
-
-1. Traders exhibit ~X% lower average PnL during Fear periods, indicating reduced profitability under risk-averse conditions.
-
-2. Average leverage increases by ~Y% during Greed periods, suggesting higher risk-taking behavior.
-
-3. High-leverage traders show significantly higher variance in returns, indicating increased exposure to extreme gains/losses.
-
-##  Data Summary
-
-1. Total trades: XXXX  
-2. Unique traders: XXXX  
-3. Date range: XXXX  
-4. Missing values handled: Yes
-
+3. Trade frequency comparison
+   
 ##  Tools & Technologies
 
 1. Python (Pandas, NumPy)
